@@ -45,7 +45,7 @@ const RestRegister = ({ className, ...rest }) => {
                             })
                             .catch(function (error) {
                                 setStatus({ success: false });
-                                setErrors({ submit: error.response.data.msg });
+                                // setErrors({ submit: error.response.data.msg });
                                 setSubmitting(false);
                             });
                     } catch (err) {

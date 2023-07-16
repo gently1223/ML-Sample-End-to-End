@@ -115,11 +115,11 @@ const routes = [
                 path: '/charts/nvd3',
                 component: lazy(() => import('./views/charts/nvd3-chart'))
             },
-            {
-                exact: true,
-                path: '/maps/google-map',
-                component: lazy(() => import('./views/maps/GoogleMaps'))
-            },
+            // {
+            //     exact: true,
+            //     path: '/maps/google-map',
+            //     component: lazy(() => import('./views/maps/GoogleMaps'))
+            // },
 
             {
                 exact: true,

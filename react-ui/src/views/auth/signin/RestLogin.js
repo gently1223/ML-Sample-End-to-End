@@ -52,7 +52,7 @@ const RestLogin = ({ className, ...rest }) => {
                             .catch(function (error) {
                                 console.log(error);
                                 setStatus({ success: false });
-                                setErrors({ submit: error.response.data.msg });
+                                // setErrors({ submit: error.response.data.msg });
                                 setSubmitting(false);
                             });
                     } catch (err) {
